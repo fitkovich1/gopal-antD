@@ -1,0 +1,23 @@
+.CustomDatePicker {
+  position: relative;
+  width: 210px;
+  height: 40px;
+  border-radius: 5px!important;
+}
+.CustomDatePicker:before {
+  content: 'Within the next 5 - 45 days';
+  position: absolute;
+  width: max-content;
+  top: -25px;
+  left: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #293845;
+}
+.CustomDatePicker .ant-picker-input .ant-picker-suffix {
+  display: none;
+}
+.CustomDatePicker .ant-picker-input > input {
+  font-size: 0.9rem !important;
+  font-weight: 500!important;
+}
