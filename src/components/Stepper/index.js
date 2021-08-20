@@ -1,26 +1,18 @@
-
-import { Steps } from 'antd';
 import { useState } from "react";
+import { Steps } from 'antd';
+import { steps } from "./helper";
+import './style.css';
+
 const { Step } = Steps;
 
 
-
-const Steps = () => {
+const Stepper = () => {
 
   const [currentStep, setCurrentStep] = useState(2);
 
   const onCurrentStepChange = (currentStep) => {
     setCurrentStep(currentStep);
   }
-
-  const steps = [
-    'Contact information',
-    'Your Background',
-    'Customize Loan',
-    'Income verification',
-    "Approval"
-  ];
-
 
   return (
     <Steps labelPlacement={'vertical'}
@@ -29,16 +21,16 @@ const Steps = () => {
            type={'default'}
            current={currentStep}
            onChange={onCurrentStepChange}
-           className='CustomizeLoan-firstPayment-steps'
+           className='Stepper'
     >
-      {steps?.length >= 1 && steps.map(step => {
-        return <Step key={step}
+      { steps?.length >= 1 && steps.map(step => {
+        return <Step key={ step }
                      className='CustomizeLoan-firstPayment-steps-item'
-                     title={step}
+                     title={ step }
         />
-      })}
+      }) }
     </Steps>
   )
 }
 
-export default Steps;
+export default Stepper;

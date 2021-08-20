@@ -1,55 +1,6 @@
 @font-face {
-    font-family: "Lato_300";
-    src: url(./Lato/Lato-Light.ttf) format("truetype");
-    font-weight: 300;
+    font-family: "omnes";
+    src: url(./Omnes/fontello.woff2) format("truetype");
     font-style: normal;
 }
 
-@font-face {
-    font-family: "Lato_400";
-    src: url(./Lato/Lato-Regular.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Lato_Bold";
-    src: url(./Lato/Lato-Bold.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Spartan_500";
-    src: url(./Spartan/Spartan-Medium.ttf) format("truetype");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Spartan_Bold";
-    src: url(./Spartan/Spartan-Bold.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Montserrat_300";
-    src: url(./Montserrat/Montserrat-Light.ttf) format("truetype");
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Montserrat_400";
-    src: url(./Montserrat/Montserrat-Regular.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Montserrat_Bold";
-    src: url(./Montserrat/Montserrat-Bold.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal;
-}
