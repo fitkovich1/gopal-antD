@@ -20,6 +20,11 @@
     font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 5px;
+    width: 47%;
+    @media screen and (max-device-width: 450px) {
+      width: auto;
+    }
+
   }
 
   &-date {
@@ -37,7 +42,7 @@
     &-container {
       display: flex;
       position: relative;
-      align-items: flex-end;
+      align-items: center;
       @media screen and (max-device-width: 450px) {
         margin-bottom: 15px;
       }
@@ -45,6 +50,7 @@
       &-calendar {
         font-size: 2rem;
         margin-right: 10px;
+        margin-bottom: 5px;
       }
 
       &-info {
@@ -129,6 +135,7 @@
     &-container {
       position: relative;
       margin-top: 10px;
+      margin-right: 25px;
       @media screen and (max-device-width: 450px) {
         margin-top: 20px;
       }

@@ -26,6 +26,12 @@
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 5px;
+  width: 47%;
+}
+@media screen and (max-device-width: 450px) {
+  .GoodFaithPayment > p {
+    width: auto;
+  }
 }
 .GoodFaithPayment-date {
   display: flex;
@@ -44,7 +50,7 @@
 .GoodFaithPayment-date-container {
   display: flex;
   position: relative;
-  align-items: flex-end;
+  align-items: center;
 }
 @media screen and (max-device-width: 450px) {
   .GoodFaithPayment-date-container {
@@ -54,6 +60,7 @@
 .GoodFaithPayment-date-container-calendar {
   font-size: 2rem;
   margin-right: 10px;
+  margin-bottom: 5px;
 }
 .GoodFaithPayment-date-container-info {
   position: absolute;
@@ -130,6 +137,7 @@
 .GoodFaithPayment-pay-month-container {
   position: relative;
   margin-top: 10px;
+  margin-right: 25px;
 }
 @media screen and (max-device-width: 450px) {
   .GoodFaithPayment-pay-month-container {
